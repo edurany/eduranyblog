@@ -1,0 +1,44 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">wpb_post_views_count</custom-field>
+        <custom-field action="copy">bluth_facebook_status</custom-field>
+        <custom-field action="copy">bluth_google_status</custom-field>
+        <custom-field action="copy">bluth_page_hide_title</custom-field>
+        <custom-field action="copy">bluth_page_layout</custom-field>
+        <custom-field action="copy">bluth_portfolio_layout</custom-field>      
+        <custom-field action="copy">bluth_post_layout</custom-field>  
+        <custom-field action="copy">bluth_post_left_sidebar</custom-field>          
+        <custom-field action="copy">bluth_post_right_sidebar</custom-field>          
+        <custom-field action="copy">bluth_twitter_status</custom-field>      
+        <custom-field action="copy">blu_audio_url</custom-field>
+        <custom-field action="copy">blu_gallery</custom-field>
+        <custom-field action="copy">blu_link_url</custom-field>
+        <custom-field action="copy">blu_portfolio_client</custom-field>      
+        <custom-field action="copy">blu_portfolio_client_link</custom-field>
+        <custom-field action="copy">blu_portfolio_gallery</custom-field>       
+        <custom-field action="copy">blu_portfolio_link</custom-field>   
+        <custom-field action="copy">blu_quote_author</custom-field>   
+        <custom-field action="copy">blu_quote_src</custom-field>
+        <custom-field action="copy">blu_quote_text</custom-field>
+        <custom-field action="copy">blu_review_field_text</custom-field>       
+        <custom-field action="copy">blu_video_url</custom-field>
+        <custom-field action="copy">_thumbnail_id</custom-field>
+        <custom-field action="translate">blu_portfolio_field</custom-field>
+        <custom-field action="translate">bluth_page_subtitle</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">blu-portfolio</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">project-type</taxonomy>
+    </taxonomies>    
+    <admin-texts>
+        <key name="optionsframework_breeze" >
+            <key name="footer_text" />
+            <key name="featured_tag" />
+            <key name="logo" />
+        </key>
+    </admin-texts>   
+</wpml-config>
+
+
