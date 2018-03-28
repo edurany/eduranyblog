@@ -123,12 +123,12 @@ class bl_socialbox extends WP_Widget{
   		<?php echo !empty($instance['title']) ? '<h3 class="widget-head">'.$instance['title'].'</h3>' : '' ?>
     	<div class="widget-body">
     		<ul class="clearfix">
+	    	<?php echo !empty($instance['rss']) 		? '<li><a target="_blank" data-title="Rss" class="tips bl_icon_rss" href="'.$instance['rss'].'"><i class="icon-rss-1"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['facebook']) 	? '<li><a target="_blank" data-title="Facebook" class="tips bl_icon_facebook" href="'.$instance['facebook'].'"><i class="icon-facebook-1"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['twitter']) 	? '<li><a target="_blank" data-title="Twitter" class="tips bl_icon_twitter" href="'.$instance['twitter'].'"><i class="icon-twitter-1"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['googleplus']) 	? '<li><a target="_blank" data-title="Google+" class="tips bl_icon_googleplus" href="'.$instance['googleplus'].'"><i class="icon-gplus-1"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['linkedin']) 	? '<li><a target="_blank" data-title="Linkedin" class="tips bl_icon_linkedin" href="'.$instance['linkedin'].'"><i class="icon-linkedin-1"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['youtube']) 	? '<li><a target="_blank" data-title="Youtube" class="tips bl_icon_youtube" href="'.$instance['youtube'].'"><i class="icon-youtube"></i></a></li>' : '' ?>
-	    	<?php echo !empty($instance['rss']) 		? '<li><a target="_blank" data-title="Rss" class="tips bl_icon_rss" href="'.$instance['rss'].'"><i class="icon-rss-1"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['flickr']) 		? '<li><a target="_blank" data-title="Flickr" class="tips bl_icon_flickr" href="'.$instance['flickr'].'"><i class="icon-flickr-1"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['vimeo']) 		? '<li><a target="_blank" data-title="Vimeo" class="tips bl_icon_vimeo" href="'.$instance['vimeo'].'"><i class="icon-vimeo-rect"></i></a></li>' : '' ?>
 	    	<?php echo !empty($instance['pinterest']) 	? '<li><a target="_blank" data-title="Pinterest" class="tips bl_icon_pinterest" href="'.$instance['pinterest'].'"><i class="icon-pinterest-circled-1"></i></a></li>' : '' ?>
