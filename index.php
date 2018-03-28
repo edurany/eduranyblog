@@ -80,7 +80,7 @@ get_header();
 								<!-- The Title -->
 								<h1 class="entry-title">
 									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-									<div class="post-format-badge post-format-<?php echo $post_format; ?>"><i class="<?php echo of_get_option($post_format.'_icon'); ?>"></i></div>
+									<!--<div class="post-format-badge post-format-<?php echo $post_format; ?>"><i class="<?php echo of_get_option($post_format.'_icon'); ?>"></i></div>-->
 								</h1>
 								<!-- The Meta -->
 								<div class="post-meta"><?php get_template_part( 'inc/meta-top' ); ?></div>
