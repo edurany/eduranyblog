@@ -1,7 +1,6 @@
 <?php
 	/**
-	 * The template for displaying any single page.
-	 *
+	 Template Name: Tag Cloud
 	 */
 
 	// Get the page layout
