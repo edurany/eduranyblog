@@ -12,6 +12,9 @@
 		<?php if(!empty($footer_text)){?>
 		<div class="row-fluid" id="footer-bottom">
 			<?php echo html_entity_decode(str_replace("{year}", date('Y'), $footer_text)); ?>
+		</div>
+		<div id="creative-commons">
+			<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow"><img src="http://www.enricdurany.com/wp-content/uploads/2018/03/CreativeCommons-footer.png"></a>
 		</div>	
 		<?php } 
 		?>
