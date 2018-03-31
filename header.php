@@ -6,6 +6,7 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
+<meta name="google-site-verification" content="OE66ffOnp6C954Ws3aC3CDgfip-8r6y5zIdFySO6RLs" />
 <meta charset="<?php bloginfo( 'charset' ); ?>" /><?php
 // check if SEO plugin support is active
 if ( of_get_option('seo_plugin') ){ ?>
