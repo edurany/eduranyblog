@@ -40,7 +40,8 @@
 								<?php
 									$args = array(
 												'number' => 0,
-												'taxonomy' => array( 'post_tag', 'category' )
+												'taxonomy' => array( 'post_tag', 'category' ),
+												'separator' => " • "
 											);
 									wp_tag_cloud($args); 
 								?>
