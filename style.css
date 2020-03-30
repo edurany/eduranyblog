@@ -4500,3 +4500,9 @@ img#wpstats{display:none}
   		-ms-transform: none;
   		-webkit-transform: none;
 	}
+
+/*TABLES*/
+	.wp-block-table.is-style-stripes td {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
