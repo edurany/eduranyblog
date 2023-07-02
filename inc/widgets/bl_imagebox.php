@@ -87,6 +87,6 @@ class bl_imagebox extends WP_Widget {
 		echo $after_widget;
 	}
 }
-add_action( 'widgets_init', create_function('', 'return register_widget("bl_imagebox");') );
+add_action( 'widgets_init', function() { return register_widget("bl_imagebox"); } );
 
 add_action('admin_enqueue_scripts', 'blu_media_enqueue');

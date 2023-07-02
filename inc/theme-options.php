@@ -24,5 +24,5 @@
 	 
 	function optionscheck_change_santiziation() {
 	    remove_filter( 'of_sanitize_textarea', 'of_sanitize_textarea' );
-	    add_filter( 'of_sanitize_textarea', create_function('$input', 'return $input;') );
+	    add_filter( 'of_sanitize_textarea', function($input) {return $input; } );
 	}

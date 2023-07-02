@@ -96,5 +96,5 @@ class bl_social_counter extends WP_Widget {
 		echo $after_widget;
 	}
 }
-add_action( 'widgets_init', create_function('', 'return register_widget("bl_social_counter");') );
+add_action( 'widgets_init', function() { return register_widget("bl_social_counter"); } );
 

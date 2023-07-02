@@ -69,4 +69,4 @@ class bl_html extends WP_Widget {
 <?php
 	}
 }
-add_action( 'widgets_init', create_function('', 'return register_widget("bl_html");') );
+add_action( 'widgets_init', function() { return register_widget("bl_html");} );

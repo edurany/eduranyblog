@@ -131,4 +131,4 @@ class bl_featured_post extends WP_Widget {
 	}
 
 }
-add_action( 'widgets_init', create_function('', 'return register_widget("bl_featured_post");') );
+add_action( 'widgets_init', function() { return register_widget("bl_featured_post");} );

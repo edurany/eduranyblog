@@ -55,4 +55,4 @@ class bl_googlebadge extends WP_Widget
     echo $after_widget;
   }
 }
-add_action( 'widgets_init', create_function('', 'return register_widget("bl_googlebadge");') );
+add_action( 'widgets_init', function() { return register_widget("bl_googlebadge");} );

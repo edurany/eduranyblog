@@ -9,7 +9,7 @@ if(is_sticky() && (is_home() || is_front_page())){ ?> <a href="#" class="sticky-
 // if positioned on the front page
 if(!is_single() and !is_page()){	
 	// if cropping is not disabled
-	if(!$disable_crop['blog']){
+	//if(!$disable_crop['blog']){
 		// if it's a full width page
  		if(of_get_option('blog_layout') == 'single'){
  			$featured_image_size = 'single-large';	
@@ -17,27 +17,27 @@ if(!is_single() and !is_page()){
  		else{
  			$featured_image_size = 'sidebar-large';	
  		}
- 	}
+ 	//}
  		
 }elseif(is_single()){
 	$layout = !get_post_meta( $post->ID, 'bluth_post_layout', true ) ? of_get_option('post_page_layout') : get_post_meta( $post->ID, 'bluth_post_layout', true );
 	
-	if(!$disable_crop['single']){
+	//if(!$disable_crop['single']){
  		if($layout == 'single'){
  			$featured_image_size = 'single-large';	
  		}else{
  			$featured_image_size = 'sidebar-large';	
  		}
- 	}
+ 	//}
 }elseif(is_page()){
 	$layout = !get_post_meta( $post->ID, 'bluth_page_layout', true ) ? of_get_option('post_page_layout') : get_post_meta( $post->ID, 'bluth_page_layout', true );
-	if(!$disable_crop['pages']){
+	//if(!$disable_crop['pages']){
  		if($layout == 'single'){
  			$featured_image_size = 'single-large';	
  		}else{
  			$featured_image_size = 'sidebar-large';	
  		}
- 	}
+ 	//}
 }
 if(is_page() && has_post_thumbnail() && get_post_format() == ''){ ?>
 	<div class="entry-image">

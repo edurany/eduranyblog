@@ -86,4 +86,4 @@ class bl_likebox extends WP_Widget{
     echo $after_widget;
   }
 }
-add_action( 'widgets_init', create_function('', 'return register_widget("bl_likebox");') );
+add_action( 'widgets_init', function() { return register_widget("bl_likebox"); } );
